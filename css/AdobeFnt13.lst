@@ -1,0 +1,288 @@
+%!Adobe-FontList 1.13
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChronicleTextG4-Roman
+FamilyName:Chronicle Text G4
+StyleName:Roman
+MenuName:Chronicle Text G4
+StyleBits:0
+WeightClass:325
+WidthClass:5
+AngleClass:0
+FullName:Chronicle Text G4 Roman
+WritingScript:Roman
+OutlineFileName:\ChronicleTextG4-Roman-Pro.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:280316
+FileModTime:1211179472
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChronicleTextG4-SemiItalic
+FamilyName:Chronicle Text G4
+StyleName:Semibold Italic
+MenuName:Chronicle Text G4 Semi
+StyleBits:1
+WeightClass:375
+WidthClass:5
+AngleClass:1
+FullName:Chronicle Text G4 Semibold Italic
+WritingScript:Roman
+OutlineFileName:\ChronicleTextG4-SemiIta-Pro.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:179712
+FileModTime:1211179454
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-MediumIt
+FamilyName:Minion Pro
+StyleName:Medium Italic
+MenuName:Minion Pro Med
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Minion Pro Medium Italic
+WritingScript:Roman
+OutlineFileName:\MinionPro-MediumIt.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:275004
+FileModTime:1283022989
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:231312
+FileModTime:1282729746
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Novecentowide-Book
+FamilyName:Novecento wide
+StyleName:Book
+MenuName:Novecento wide Book
+StyleBits:0
+WeightClass:350
+WidthClass:7
+AngleClass:0
+FullName:Novecento wide Book
+WritingScript:Roman
+OutlineFileName:\Novecentowide-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:46728
+FileModTime:1323552152
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Novecentowide-Light
+FamilyName:Novecento wide
+StyleName:Light
+MenuName:Novecento wide Light
+StyleBits:0
+WeightClass:300
+WidthClass:7
+AngleClass:0
+FullName:Novecento wide Light
+WritingScript:Roman
+OutlineFileName:\Novecentowide-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:46384
+FileModTime:1323552152
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Novecentowide-Medium
+FamilyName:Novecento wide
+StyleName:Medium
+MenuName:Novecento wide UltraLight
+StyleBits:2
+WeightClass:600
+WidthClass:7
+AngleClass:0
+FullName:Novecento wide Medium
+WritingScript:Roman
+OutlineFileName:\Novecentowide-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:46560
+FileModTime:1323552153
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Novecentowide-Normal
+FamilyName:Novecento wide
+StyleName:Normal
+MenuName:Novecento wide Normal
+StyleBits:0
+WeightClass:400
+WidthClass:7
+AngleClass:0
+FullName:Novecento wide Normal
+WritingScript:Roman
+OutlineFileName:\Novecentowide-Normal.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:46156
+FileModTime:1323552153
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma
+FamilyName:Tahoma
+StyleName:Regular
+MenuName:Tahoma
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Tahoma
+WritingScript:Roman
+OutlineFileName:\Tahoma
+DataFormat:sfntResource
+ResourceID:8386
+FileLength:136401
+FileModTime:1138302000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma-Bold
+FamilyName:Tahoma
+StyleName:Bold
+MenuName:Tahoma
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Tahoma Bold
+WritingScript:Roman
+OutlineFileName:\Tahoma
+DataFormat:sfntResource
+ResourceID:24492
+FileLength:136401
+FileModTime:1138302000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Tahoma
+OutlineFileName:\Tahoma
+ResourceID:6583
+MacStyle:0
+FileLength:136401
+FileModTime:1138302000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Tahoma-Bold
+OutlineFileName:\Tahoma
+ResourceID:6583
+MacStyle:1
+FileLength:136401
+FileModTime:1138302000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Tahoma
+OutlineFileName:\Tahoma
+ResourceID:6583
+MacStyle:2
+FileLength:136401
+FileModTime:1138302000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Wingdings3
+FamilyName:Wingdings 3
+StyleName:Regular
+MenuName:Wingdings 3
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Wingdings 3
+WritingScript:Roman
+OutlineFileName:\Wingdings 3
+DataFormat:sfntResource
+ResourceID:5101
+FileLength:30350
+FileModTime:1138302000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Wingdings3
+OutlineFileName:\Wingdings 3
+ResourceID:2052
+MacStyle:0
+FileLength:30350
+FileModTime:1138302000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Wingdings3
+OutlineFileName:\Wingdings 3
+ResourceID:2052
+MacStyle:1
+FileLength:30350
+FileModTime:1138302000
+%EndFont
+
