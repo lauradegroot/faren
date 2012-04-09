@@ -404,8 +404,10 @@ body.col .years{
 /*SEASON*/
 
 
-
-.season #holder {
+#ss2010 {
+	z-index:2;
+}
+ #holder {
 	position:absolute;
 	top: 150px;
 	left: 20px;
@@ -417,32 +419,33 @@ body.col .years{
 	background: #000000;
 	opacity:0.7;
 }
-.season #holder:hover {
+ #holder:hover {
 	height: 240px;
 	background: #000000;
 }
-.season #holder p {
+#holder p {
 	display: block;
 	width: 100%;
 	color: #b8b8b8;
 	text-decoration: none;
 }
-.season #holder p:hover {
+#holder p:hover {
 	color: #ffffff;
 	border-bottom:none;
 }
-.season #holder span{
+#holder span{
 	color:#ffffff;
 }
 
-.season li#first{
+#holder li#first{
 	margin-left:20px;
 }
-.season #holder p, #holder span{
+ #holder p, #holder span{
 	font-family:"ChronicleTextG4-Roman-Pro";
 	font-size:13px;
-	margin:0;
+	margin:0 0 0 10px;
 	cursor:pointer;
+	
 }
 
 
@@ -457,7 +460,6 @@ body.col .years{
 	float:left;
 	background: url('../img/studio_bg.png')repeat;
 	margin:50px 0 0 50px;
-	border-bottom:1px solid #b8b8b8;
 }
 
 .studio #more{
@@ -541,13 +543,17 @@ body.col .years{
 	margin:-9px 0 0 5px;	 
 }
 
-.studio #videos iframe{
-	margin-left:20px;
-}
+
 .studio #videos p{
 	margin:0 0 20px 10px;
 	font-family:"ChronicleTextG4-Roman-Pro";
 	font-size:12px;
+}
+.studio #iframe {
+	height:310px;
+	width:470px;
+	border-bottom:1px solid #878787;
+	margin-left:20px;
 }
 #twitter_m {
 	width: 200px;
@@ -587,8 +593,37 @@ body.col .years{
 }
 
 
+/******ITEM*****/
 
+.item #info {
+	height:150px;
+	width:175px;
+	z-index:1;
+	background: url('../img/box_bg.png')repeat;
+	margin-top:-165px;
+	position:absolute;
+}
 
+.item h3{
+	font-family:"ChronicleTextG4-Roman-Pro";
+	font-size:16px;
+	color:#ffffff;
+	margin:25px 0 0 25px;
+}
+
+.item #info p{
+	margin-left:25px;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size:10px;
+	width:15	0px;
+}
+.item #itemnav a{
+	font-family:"ChronicleTextG4-Roman-Pro";
+	font-size:13px;
+	color:#c7c7c7;
+	text-decoration:none;
+	margin:0 10px 0 10px;
+}
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
