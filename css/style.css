@@ -380,7 +380,7 @@ body.col #header{
 	height:120px;
 }
 body.col ul#mycarousel li{
-	background: url('../img/clouds_standin.jpg')repeat;
+	background: url('../img/collections/bustier_small.jpg')repeat;
 	color:#ffffff;
 }
 
@@ -398,9 +398,18 @@ body.col ul#mycarousel #fall{
 	margin: 50px 0 0 57px;
 }
 body.col .years{
-	margin:15px 0 0 60px;
+	margin:15px 0 0 0;
 }
-
+body.col .years a{
+	font-family:"ChronicleTextG4-Roman-Pro";
+	font-size:17px;
+	color:#9c9c9c;
+	margin-right: 10px;
+	text-decoration:none;
+}
+body.col .years a:hover{
+	color:#ffffff;
+}
 .season li#first{
 	margin-left:20px;
 }
