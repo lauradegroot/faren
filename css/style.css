@@ -236,7 +236,8 @@ body {
 	background-color:#000000;
 }
 #container{
-	background-image: url('../img/bg_standin.jpg');
+		background: url('../img/collections/bustier_small.jpg') 0 -143px no-repeat;
+		background-color:#000;
 }
 
 #empty{
@@ -307,6 +308,7 @@ footer {
 	background: url('../img/box_bg.png')repeat;
 	position: absolute; 
 	bottom: 0;
+	padding-top: 10px;
 }
 #lookbook img {
 	margin: 7px 0 0 10px;
