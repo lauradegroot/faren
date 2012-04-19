@@ -297,6 +297,7 @@ footer {
 	height:400px;
 	width:200px;
 	float:right;
+	margin: 140px 50px 0 0;
 }
 
 #lookbook {
@@ -324,7 +325,7 @@ p.boxlink {
 }
 
 #header a:hover{
-	border-bottom: 4px solid #ffffff;
+	border-bottom: 5px solid #ffffff;
 	cursor:pointer;
 }
 footer a:hover{
@@ -400,7 +401,9 @@ body.col .years{
 	margin:15px 0 0 60px;
 }
 
-
+.season li#first{
+	margin-left:20px;
+}
 /*SEASON*/
 
 
@@ -443,7 +446,7 @@ body.col .years{
  #holder p, #holder span{
 	font-family:"ChronicleTextG4-Roman-Pro";
 	font-size:13px;
-	margin:0 0 0 10px;
+	margin:0;
 	cursor:pointer;
 	
 }
@@ -494,15 +497,20 @@ body.col .years{
 	clear:left;
 }
 .studio p{
+		padding-left: 10px;
+}
+.studio p{
 	font-family: Tahoma;
 	font-size:11px;
 	color:#ffffff;
 	text-decoration:none;
 	line-height:4px;
-	padding-left: 10px;
 }
 .studio #more a{
 	text-decoration:none;
+}
+.studio #more a:hover{
+	color:#b1b1b1;
 }
 #twitter {
 	height:500px;
@@ -552,19 +560,19 @@ body.col .years{
 .studio #iframe {
 	height:310px;
 	width:470px;
-	border-bottom:1px solid #878787;
+	border-bottom:2px solid #636363;
 	margin-left:20px;
 }
 #twitter_m {
 	width: 200px;
 }
 #twitter_container {
-	height: 500px;
+	height: 475px;
 }
 
 #twitter_update_list {
 	width: 200px;
-	height: 500px;
+	height: 475px;
 	color: #fff;
 	font-size: 10px;
 	font-family: Tahoma, Arial;
@@ -576,7 +584,7 @@ body.col .years{
 	list-style: none;
 	margin: 12px 0 0 15px;
 	padding-bottom:12px;
-	border-bottom:1px solid #c0c0c0;
+	border-bottom:2px solid #636363;
 }
 
 
@@ -592,6 +600,25 @@ body.col .years{
 	color: #878787;
 }
 
+#follow{
+	margin:22px 0 0 15px;
+	width: 170px;
+}
+#follow a{
+	font-family: Tahoma;
+	font-size:11px;
+	color:#b1b1b1;
+	line-height:4px;
+	text-decoration:none;
+}
+#follow a:hover{
+	text-decoration:underline;
+}
+#feed {
+	overflow:hidden;
+	height:450px;
+}
+
 
 /******ITEM*****/
 
@@ -602,6 +629,15 @@ body.col .years{
 	background: url('../img/box_bg.png')repeat;
 	margin-top:-165px;
 	position:absolute;
+}
+.item #info #links{
+	margin-top:25px;
+}
+.item #info #links a#first{
+	margin-left:25px;
+}
+.item #info #links a{
+	margin-right:5px;
 }
 
 .item h3{
@@ -617,13 +653,28 @@ body.col .years{
 	font-size:10px;
 	width:15	0px;
 }
+.item #itemnav{
+	position:absolute;
+	z-index:3;
+	top:150px;
+	margin-left:10px;
+}
 .item #itemnav a{
 	font-family:"ChronicleTextG4-Roman-Pro";
 	font-size:13px;
-	color:#c7c7c7;
+	color:#9c9c9c;
 	text-decoration:none;
-	margin:0 10px 0 10px;
+ 	padding: 5px 18px 9px 18px;
+	border-right: 1px solid #9c9c9c;
+	line-height: 29px;
 }
+.item #itemnav a:hover{
+	color:#c0c0c0;
+}
+.item #itemnav a#last{
+	border:0;
+}
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
@@ -657,9 +708,42 @@ body.col .years{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 700px) {
   /* Style adjustments for viewports 480px and over go here */
-
+	#header li a {
+	font-size: 10px;
+	}
+	#seasons{
+		margin-top:30px;	
+	}
+	#holder {
+	top: 179px;
+	}
+	#header ul#links {
+	float: auto;
+	margin: 4px 0 0 0;
+	padding-left:20px;
+	}
+	#header {
+	height: 75px;
+	}
+	h1#faren {
+	margin-left: -10px;
+	float: none;
+	}
+	.season #main{
+		height: 230px;
+	}
+	.studio #videos {
+	margin: 50px 0 0 10px;
+	}
+	.studio #more {
+	margin: 10px 0 0 10px;
+	}
+	.studio #twitter {
+	margin: 10px 0 0 10px;
+	}
+	
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */

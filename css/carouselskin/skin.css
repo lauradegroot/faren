@@ -94,7 +94,9 @@ margin-right:10px;
     right: auto;
     background-image: url(prev-horizontal.png);
 }
-
+.season .jcarousel-skin-tango .jcarousel-next-horizontal {
+    top: 60px;
+}
 /*.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
 .jcarousel-skin-tango .jcarousel-next-horizontal:focus {
     background-position: -32px 0;
@@ -120,6 +122,9 @@ margin-right:10px;
     height: 88px;
     cursor: pointer;
     background: transparent url(../../img/prex_arrow.png) no-repeat 0 0;
+}
+.season .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    top: 60px;
 }
 
 .jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
